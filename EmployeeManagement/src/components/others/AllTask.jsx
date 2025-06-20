@@ -1,0 +1,34 @@
+import React from 'react'
+
+const AllTask = () => {
+    return (
+        <div class="bg-[#1c1c1c] p-5 rounded mt-5">
+            <div class="bg-red-400 mb-2 py-2 px-4 flex justify-between rounded">
+                <h2 class="text-lg font-medium w-1/5">Employee Name</h2>
+                <h3 class="text-lg font-medium w-1/5">New Task</h3>
+                <h5 class="text-lg font-medium w-1/5">Active Task</h5>
+                <h5 class="text-lg font-medium w-1/5">Completed</h5>
+                <h5 class="text-lg font-medium w-1/5">Failed</h5>
+            </div>
+
+            <div class="border-2 border-emerald-500 mb-2 py-2 px-4 flex justify-between rounded">
+                <h2 class="text-lg font-medium w-1/5">John</h2>
+                <h3 class="text-lg font-medium w-1/5 text-blue-400">2</h3>
+                <h5 class="text-lg font-medium w-1/5 text-yellow-400">1</h5>
+                <h5 class="text-lg font-medium w-1/5 text-white">3</h5>
+                <h5 class="text-lg font-medium w-1/5 text-red-600">0</h5>
+            </div>
+
+            <div class="border-2 border-emerald-500 mb-2 py-2 px-4 flex justify-between rounded">
+                <h2 class="text-lg font-medium w-1/5">Emily</h2>
+                <h3 class="text-lg font-medium w-1/5 text-blue-400">1</h3>
+                <h5 class="text-lg font-medium w-1/5 text-yellow-400">2</h5>
+                <h5 class="text-lg font-medium w-1/5 text-white">4</h5>
+                <h5 class="text-lg font-medium w-1/5 text-red-600">1</h5>
+            </div>
+        </div>
+
+    )
+}
+
+export default AllTask

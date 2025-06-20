@@ -11,6 +11,9 @@ const Login = () => {
     console.log("Password:", password);
     console.log("Login submitted");
 
+    setEmail("");
+    setPassword("");
+
   }
   return (
     <div className="flex h-screen w-screen items-center justify-center">
